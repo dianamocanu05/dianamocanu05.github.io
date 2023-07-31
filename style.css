@@ -124,6 +124,11 @@ i.fas {
     color: #fff; /* Text color for the tags (white in this case) */
 }
 
+.skills-list .badge:hover {
+    transform: scale(1.1); /* Add scale effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow on hover */
+}
+
 .progress {
     height: 30px;
     border-radius: 15px;
@@ -142,3 +147,31 @@ i.fas {
 .progress-bar.bg-custom {
     background-color: #431f7d; /* Your desired accent color (deep purple) */
 }
+
+/* Custom CSS for the "Achievements" section */
+#achievements {
+    background-color: #f8f9fa;
+}
+
+.list-group {
+    margin-top: 30px;
+}
+
+.list-group-item {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+}
+
+.list-group-item:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.list-group-item i {
+    margin-right: 10px;
+    color: #431f7d; /* Adjust icon color */
+}
+
+/* Customize any additional styles as needed */
