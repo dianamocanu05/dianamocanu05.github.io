@@ -61,3 +61,44 @@ i.fas {
 .text-deep-purple {
     color: #431f7d; /* Deep purple color */
 }
+
+#skills-languages {
+    padding-top: 60px; /* Add some top padding to center the content vertically */
+}
+
+.skills-list {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Target the badge elements for skills tags */
+.skills-list .badge {
+    margin-right: 8px;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    background-color: #431f7d; /* Your desired color for the tags */
+    color: #fff; /* Text color for the tags (white in this case) */
+}
+
+.progress {
+    height: 30px;
+    border-radius: 15px;
+    background-color: #f1f1f1; /* Light gray background */
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.progress-bar {
+    line-height: 30px;
+    font-size: 14px;
+    border-radius: 15px; /* Round the corners of the progress bar */
+    color: #fff; /* Text color for the progress bar (white) */
+}
+
+/* Customize progress bar colors */
+.progress-bar.bg-custom {
+    background-color: #431f7d; /* Your desired accent color (deep purple) */
+}
