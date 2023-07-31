@@ -17,3 +17,47 @@ footer {
     text-align: center;
     padding: 1rem 0;
 }
+
+.fixed-height {
+    height: 250px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #f8f9fa; /* Light gray background color */
+    border-radius: 10px; /* Rounded borders */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+}
+
+.card-text {
+    font-size: 16px;
+    color: #666; /* Medium-gray text color */
+    margin-bottom: 10px;
+}
+
+i.fas {
+    color: #431f7d; /* Primary color (blue) for icons */
+}
+
+.text-deep-purple {
+    color: #431f7d; /* Deep purple color */
+}
